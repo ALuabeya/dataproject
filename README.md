@@ -35,6 +35,10 @@ Measurements
 
 All measurements summarized by mean or std were selected
 
+- first thing
+- second thing
+- third thing
+
 Activity labels
 ===============
 
