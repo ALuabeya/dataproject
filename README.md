@@ -7,10 +7,9 @@ aluabeya@gmail.com
 ==================================================================
 
 
-
 Preparation
 ===========
-
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAMElEQVR42mNgIAXY2Nj8x8cHC8AwMl9XVxe3QqwKcJmIVwFWhehW4LQSXQCnm3ABAHD6MDrmRgfrAAAAAElFTkSuQmCC
 Download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fproje
 
 ctfiles%2FUCI%20HAR%20Dataset.zip ", "data.zip")
@@ -29,15 +28,10 @@ Variable names
 The variable names were given a "code" and "description" associated
 with the measurements included in the table,
 
-
 Measurements
 ============
 
 All measurements summarized by mean or std were selected
-
-- first thing
-- second thing
-- third thing
 
 Activity labels
 ===============
@@ -90,3 +84,4 @@ Final dataset
 
 I then create the final dataset “experiment “where I bind the training and
 test dataset
+
