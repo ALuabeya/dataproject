@@ -4,84 +4,75 @@ Version 1.0
 ==================================================================
 Angelique Luabeya
 aluabeya@gmail.com
+Human Activity Recognition Using smartphone dataset
 ==================================================================
-
+The exeriments have been carried out with agroup of 30 volunteers within the age bracket of 18-48 years.Volunteers performed 6 differents physical activities and differents parameters were meeasured per activity and per subject:
+-Triaxial acceleration from the accelerometer and the estimated body acceleration
+-Triaxila angular velocity from the gyroscope
+-561 features vectors were created including time and frequency domain variables
 
 Preparation
 ===========
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAMElEQVR42mNgIAXY2Nj8x8cHC8AwMl9XVxe3QqwKcJmIVwFWhehW4LQSXQCnm3ABAHD6MDrmRgfrAAAAAElFTkSuQmCC
-Download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fproje
+Download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ", "data.zip")
 
-ctfiles%2FUCI%20HAR%20Dataset.zip ", "data.zip")
-
-Measurement labels
+Measurement labels table
 ==================
 
-The features table was created to describe the measurement collected for
-each type of activity done by each subject. These measurements were
-summarized by mean, standard deviation(STD) , min , max ect....
-
+-The features table was created to describe the measurement collected for
+each type of activity done by each subject. 
+-These measurements were summarized by mean, standard deviation(STD) , min , max ect....
 
 Variable names
 ==============
 
-The variable names were given a "code" and "description" associated
-with the measurements included in the table,
+-Measurements in the features table were given variable names with a "code" and "description" 
 
 Measurements
 ============
+-Selection of all measurements summarized by mean or std 
 
-All measurements summarized by mean or std were selected
+Activity labels table
+=====================
 
-Activity labels
-===============
-
-Activity table describe the type of activity done by each subject. They are
-listed from 1 to 6. Each activity has a number which constitute its code
-
-6. I allocate the "code" and "description" of the activity in the table
-activity labels
+-Activity table created to describe the type of activity done by each subject. 
+-Each activity  given a code and description
 
 Training dataset
 ================
-
-The training dataset include all the measurements recorded on each
+-The training dataset include all the measurements recorded on each
 subject for each activity
-
-9. Each measurement has been labeled with names of measurements
-
-included in the features table
-
-
-The subjects tables is created from in the training dataset
-
-The activity tables is created from the training dataset
-
-The activity from the training dataset are labeled with an " activity_ code"
-
-The activity labels and the activities " are merged by activity code and by
+-Each measurement has been labeled with variable names for each measurements
+-The subjects table is created from  the training dataset for subjects included in the training dataset
+-An activity table is created from the training dataset
+-The activities from the training dataset are labeled with an " activity_ code"
+-The activity labels and the activities " are merged by activity code and by
 code
-
-Training dataset with measurements by mean and STD
-
-I create a dataset “train” with a subset from the training dataset including
-
-only the measurements summarized by mean or STD and from the “train”
-
-dataset, I select the subjects and activities with measurement
-
-summarized by mean and STD
+- Dataset “train”  created with a subset from the training dataset including only subjects and activities with  measurements summarized by mean or STD 
 
 Test dataset
 ============
-
-TEST dataset: I repeat the same steps for the test dataset as I did for the
-
-training dataset
+-TEST dataset:
+The TEST dataset include all the measurements recorded on each
+subject for each activity
+-Each measurement has been labeled with variable names for each measurements
+-The subjects table is created from  the TEST dataset for subjects included in the TEST dataset
+-An activity table is created from the TEST dataset
+-The activities from the TEST dataset are labeled with an " activity_ code"
+-The activity labels and the activities " are merged by activity code and by
+code
+- Dataset “TEST”  created with a subset from the TEST dataset including only subjects and activities with measurements summarized by mean or STD 
 
 Final dataset
 =============
+-The final dataset “experiment"  is created by binding the training and TEST dataset
 
-I then create the final dataset “experiment “where I bind the training and
-test dataset
+Clean dataset
+==============
+-Create from the experiment data with SD and mean of all measurements done by activities and subject
+
+
+
+
+
 
