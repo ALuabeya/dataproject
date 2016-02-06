@@ -6,7 +6,7 @@ Angelique Luabeya
 aluabeya@gmail.com
 Human Activity Recognition Using smartphone dataset
 ==================================================================
-The exeriments have been carried out with agroup of 30 volunteers within the age bracket of 18-48 years.Volunteers performed 6 differents physical activities and differents parameters were meeasured per activity and per subject:
+The experiments have been carried out with agroup of 30 volunteers within the age bracket of 18-48 years.Volunteers performed 6 differents physical activities and differents parameters were meeasured per activity and per subject:
 - Triaxial acceleration from the accelerometer and the estimated body acceleration
 - Triaxila angular velocity from the gyroscope
 - 561 features vectors were created including time and frequency domain variables
